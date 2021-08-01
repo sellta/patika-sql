@@ -1,14 +1,9 @@
 # patika-sql
 
 Sql eğitim soruları
-
-<a href='odev1'>Ödev 1</a>
-<a href='odev2'>Ödev 2</a>
-<a href='odev3'>Ödev 3</a>
-
 ---
 
-## <p id = 'odev1' > Ödev 1 </p> 
+## <p> Ödev 1 </p> 
 #### 1- Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
 ~~~sql
 SELECT title, description FROM film;
@@ -44,7 +39,7 @@ AND length < 51;
 
 ---
 
-## <p id = 'odev2' > Ödev 2 </p> 
+## <p> Ödev 2 </p> 
 #### 1- film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
 ~~~sql
 SELECT title,replacement_cost FROM film
@@ -67,7 +62,7 @@ WHERE (rental_rate IN (0.99, 2.99, 4.99))
 AND (replacement_cost IN (12.99, 15.99,28.99));
 ~~~
 ---
-## <p id = 'odev3' > Ödev 3 </p> 
+## <p> Ödev 3 </p> 
 #### 1- country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
 ~~~sql
 SELECT * FROM country
